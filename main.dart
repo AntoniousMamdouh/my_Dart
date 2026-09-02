@@ -1,16 +1,13 @@
+
+/*========    ternary Operator    ========*/
 void main() {
-  // bool isLoggedIn = true;
-  // String userMessage;
-  // if (isLoggedIn) {
-  //   userMessage = "welcome back To Your Account";
-  //   // ignore: dead_code
-  // } else {
-  //   userMessage = "please log in to your account !";
-  // }
-  // print(userMessage);
-  bool isLoggedIn = false;
-  String userMessage = isLoggedIn
-      ? "welcome back To Your Account"
-      : "please log in to your account !";
-  print(userMessage);
+  double yearsOfExperience = 12; 
+  final String developerLevel = (yearsOfExperience >= 5)
+      ? "Professional"         
+      : (yearsOfExperience >= 3)
+          ? "Senior"
+          : (yearsOfExperience >= 1)
+              ? "Beginner"     
+              : "Learner";
+  print(developerLevel);
 }
