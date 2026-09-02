@@ -1,15 +1,16 @@
-import 'dart:io';
-
 void main() {
-  print("Enter your Name : ");
-  String name = stdin.readLineSync()!;
-  print("Enter your age : ");
-  int age = int.parse(stdin.readLineSync()!);
-  print("Enter Your Colluge : ");
-  String colluge = stdin.readLineSync()!;
-  print("Enter your Success: ");
-  bool suc = bool.parse(stdin.readLineSync()!);
-  print("""Helllo $name
-  your age is $age and your colluge is $colluge
-  and is sucsess is $suc""");
+  // bool isLoggedIn = true;
+  // String userMessage;
+  // if (isLoggedIn) {
+  //   userMessage = "welcome back To Your Account";
+  //   // ignore: dead_code
+  // } else {
+  //   userMessage = "please log in to your account !";
+  // }
+  // print(userMessage);
+  bool isLoggedIn = false;
+  String userMessage = isLoggedIn
+      ? "welcome back To Your Account"
+      : "please log in to your account !";
+  print(userMessage);
 }
