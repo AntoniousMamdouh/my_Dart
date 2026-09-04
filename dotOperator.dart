@@ -19,5 +19,9 @@ void main() {
   print(s.toLowerCase());
   print(s.toUpperCase());
   print(s.length);
-  print(int.tryParse(s)); // للتغلب على مشكلة تحويل النص الى رقم هيطلعلى القيمة null
-} 
+  print(
+    int.tryParse(s),
+  ); // للتغلب على مشكلة تحويل النص الى رقم هيطلعلى القيمة null
+  print(y.hashCode);
+  
+}
