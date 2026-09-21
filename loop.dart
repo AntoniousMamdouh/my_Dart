@@ -1,6 +1,6 @@
-import 'dart:io';
+// import 'dart:io';
 
-void main() {
+// void main() {
   //// ============ Loop in Dart ============ ////
   ///for loop              (dataType starting; condition; increment || decrement;)
   ///while loop            (dataType starting; condition; increment || decrement;)
@@ -34,4 +34,4 @@ void main() {
 //   for (int i = 1; i <= 10; i++) {
 //   print(" " * (10 - i) + "*" * (2 * i - 1));
 // }
-}
+// }
